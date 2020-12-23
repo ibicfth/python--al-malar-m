@@ -8,22 +8,22 @@ python eğitimi esnasında yaptığım uygulamaları içerir kendime ve ithiyaç
   1- giriş <br/>
   2- döngüler <br/>
   3- liste <br/>
-  4-1 fonksiyon ve classlar
-  4-2 içiçe fonksiyonlar
-  4-3 iterators ve  generators
-  5- dosya işlemleri
-  6- modül kullanımı
-  7- hata ve hata yönetimi
-  8- ileri seviye modüller
-  9- selenium>>github
-  10- selenium>>instagram
-  11- numpy
-  12- pandas
-  13- plots
-  14- database
-  15- nosql
-  16- pygt5
-  17- bootstrap
-  18- django
+  4-1 fonksiyon ve classlar <br/>
+  4-2 içiçe fonksiyonlar <br/>
+  4-3 iterators ve  generators <br/>
+  5- dosya işlemleri <br/>
+  6- modül kullanımı <br/>
+  7- hata ve hata yönetimi <br/>
+  8- ileri seviye modüller <br/>
+  9- selenium>>github <br/>
+  10- selenium>>instagram <br/>
+  11- numpy <br/>
+  12- pandas <br/>
+  13- plots <br/>
+  14- database <br/>
+  15- nosql <br/>
+  16- pygt5 <br/>
+  17- bootstrap <br/>
+  18- django 
   
   
