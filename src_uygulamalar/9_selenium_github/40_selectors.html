@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #header{
+            font-size: 45px;
+            color:brown;
+        }
+
+        .course h2  {
+            color: blueviolet;
+        }
+        .course.Angular{
+            background-color: rgb(208, 219, 45);
+        }
+        .course p{
+            color: firebrick;
+        }
+        #username {
+            padding: 10px;
+            border:1px solid red;
+        }
+        input[type='text']{
+            padding: 20px;
+
+        }
+    </style>
+</head>
+<body>
+    <div id='container'>
+        <h1 id="header">KURSLAR</h1>
+        <hr><!--boydan boya çizgi çeker--> 
+        <div class="course Python">
+            <h2>Python kursu</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, qui.</p><!--p:açıklama satırı ekler. lorem random kelime ekler. lorem10 random 10 kelime ekle-->
+        </div>
+        <div class="course Angular">
+            <h2>Angular kursu</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, qui.</p><!--p:açıklama satırı ekler. lorem random kelime ekler. lorem10 random 10 kelime ekle-->
+        </div>
+        <div class="course Javascript">
+            <h2>Javascript kursu</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, qui.</p><!--p:açıklama satırı ekler. lorem random kelime ekler. lorem10 random 10 kelime ekle-->
+        </div>
+
+        <div>
+            <form>
+                username:<input type="text" name="username" id="username"><br><!--br alsatıra geçer-->
+                password:<input type="password" name="password" id="password"><br>
+                <input type="submit" value="Login">
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

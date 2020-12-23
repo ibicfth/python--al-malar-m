@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <title>AÇILIR KUTULAR</title>
+    <style>
+       
+        /* carousel : 5 sn yede bir istediğimiz resimler sıraylar gösterilir.
+        hangi resimden başlamasını istersek classına active veririrz
+        carousel i çalıştırmak içinse: data-ride="carousel" deriz*/
+        
+    </style>
+</head>
+<body class="container my-4" >
+
+<!-- --------------------------------------------------------------------------------------------------------------------------- -->
+<!-- butona tıkladığımızda açılır ekranı kaplayan kutu oluşturur. -->
+<buton class="btn btn-success"  type="button" data-toggle="modal" data-target="#ilişki">modal çalıştır</buton>
+
+<div class="modal" id="ilişki">
+   <div class="modal-dialog">
+       
+       <div class="modal-content">
+          
+           <div class="modal-header">
+               <h5 class="modal-title">modal baslık</h5>
+           </div>
+           
+           <div class="modal-body">
+               parağraf
+           </div>
+           
+           <div class="modal-footer">
+               fatih ibiç
+           </div>
+           
+       </div>
+   </div>
+    
+</div>
+<hr><br><br>
+<!-- --------------------------------------------------------------------------------------------------------------------------- -->
+<!-- herhangi boş bi yere tıkladığımızda kapatılır açılan pencere ama görsellik için header kısmına çarpı butonu(iconu) ekleyelim kapatmak için
+data-dismiss kapatma classı , işaret koymak için &times kullanılır-->
+<buton class="btn btn-success"  type="button" data-toggle="modal" data-target="#ilişki2">modal çalıştır</buton>
+
+<div class="modal" id="ilişki2">
+   <div class="modal-dialog">
+       
+       <div class="modal-content">
+          
+           <div class="modal-header">
+               <h5 class="modal-title">modal baslık</h5>
+               <button type="button" class="close" data-dismiss="modal">&times;</button>
+           </div>
+           
+           <div class="modal-body">
+               parağraf
+           </div>
+           
+           <div class="modal-footer">
+               fatih ibiç
+           </div>
+           
+       </div>
+   </div>
+    
+</div>
+<hr><br><br>
+<!-- --------------------------------------------------------------------------------------------------------------------------- -->
+<!-- herhangi boş bi yere tıkladığımızda kapatılır açılan pencere ama görsellik için footer kısmına close butonu ekleyelim kapatmak için
+data-dismiss kapatma classı r-->
+<buton class="btn btn-success"  type="button" data-toggle="modal" data-target="#ilişki3">modal çalıştır</buton>
+
+<div class="modal" id="ilişki3">
+   <div class="modal-dialog">
+       
+       <div class="modal-content">
+          
+           <div class="modal-header">
+               <h5 class="modal-title">modal baslık</h5>
+               
+           </div>
+           
+           <div class="modal-body">
+               parağraf
+           </div>
+           
+           <div class="modal-footer">
+               <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+           </div>
+           
+       </div>
+   </div>
+    
+</div>
+<hr><br><br>
+
+<!-- --------------------------------------------------------------------------------------------------------------------------- -->
+<!-- modalın efektli bir şekilde açılığ kapnamsı için fade sınıfı eklenir-->
+<buton class="btn btn-success"  type="button" data-toggle="modal" data-target="#ilişki4">modal çalıştır</buton>
+
+<div class="modal fade" id="ilişki4">
+   <div class="modal-dialog">
+       
+       <div class="modal-content">
+          
+           <div class="modal-header">
+               <h5 class="modal-title">modal baslık</h5>
+               
+           </div>
+           
+           <div class="modal-body">
+               parağraf
+           </div>
+           
+           <div class="modal-footer">
+               <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+           </div>
+           
+       </div>
+   </div>
+    
+</div>
+<hr><br><br>
+<!-- --------------------------------------------------------------------------------------------------------------------------- -->
+<!-- modalın diyolog kutusunun kçük olması için= modal-sm , büyük olması için=modal-lg -->
+<buton class="btn btn-success"  type="button" data-toggle="modal" data-target="#ilişki5">modal çalıştır</buton>
+
+<div class="modal fade" id="ilişki5">
+   <div class="modal-dialog modal-lg">
+       
+       <div class="modal-content">
+          
+           <div class="modal-header">
+               <h5 class="modal-title">modal baslık</h5>
+               
+           </div>
+           
+           <div class="modal-body">
+               parağraf
+           </div>
+           
+           <div class="modal-footer">
+               <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+           </div>
+           
+       </div>
+   </div>
+    
+</div>
+<hr><br><br>
+<!-- --------------------------------------------------------------------------------------------------------------------------- -->
+<!-- modalın diyolog kutusunun sayfanın ortasında açılması için modal-diyalog-centered -->
+<buton class="btn btn-success"  type="button" data-toggle="modal" data-target="#ilişki6">modal çalıştır</buton>
+
+<div class="modal fade" id="ilişki6">
+   <div class="modal-dialog modal-sm  modal-dialog-centered">
+       
+       <div class="modal-content">
+          
+           <div class="modal-header">
+               <h5 class="modal-title">modal baslık</h5>
+               
+           </div>
+           
+           <div class="modal-body">
+               parağraf
+           </div>
+           
+           <div class="modal-footer">
+               <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+           </div>
+           
+       </div>
+   </div>
+    
+</div>
+<hr><br><br>
+<!-- --------------------------------------------------------------------------------------------------------------------------- -->
+<!-- data-toggle ı ve data-target ı kullanmadan yani  bootstrap ile değilde javascript ile modal ı çalıştırmak için 
+
+BUTONSUZ YAPMAK
+
+<script> </script>: kodlar script alanı içinde yapılır.
+$(function() {});  ==> kodlar function ile sayfa açıldığında  çalıştırılır ve yaptırmak istediklerimizi {} alanı içinde yazdırırız.
+{} bu alan içinde yukarda hangi şeye işlem yaptırmak istersek id tanımlarız ve bu alan içinde $(#ilişki) ile id deki ilişkiyi veririz ve .modal(); deyip ne yaptırmak istiyorsak modal();içine yazarız örnek
+{$('#ilişki').modal('show')}-->
+
+
+<div class="modal fade" id="ilişki_script">
+   <div class="modal-dialog modal-sm  modal-dialog-centered">
+       
+       <div class="modal-content">
+          
+           <div class="modal-header">
+               <h5 class="modal-title">SCRIPT ILE ACILDI</h5>
+               
+           </div>
+           
+           <div class="modal-body">
+               parağraf
+           </div>
+           
+           <div class="modal-footer">
+               <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+           </div>
+           
+       </div>
+   </div>
+    
+</div>
+<hr><br><br>
+<!-- --------------------------------------------------------------------------------------------------------------------------- -->
+<!-- data-toggle ı ve data-target ı kullanmadan yani  bootstrap ile değilde javascript ile modal ı çalıştırmak için 
+
+SADE BUTON İLE YAPMAK YANİ:DATA-TARGET VE DATA-TOGGLE I SCRIPT ILE YAPTIK
+
+<script> </script>: kodlar script alanı içinde yapılır.
+$(function() {});  ==> kodlar function ile sayfa açıldığında  çalıştırılır ve yaptırmak istediklerimizi {} alanı içinde yazdırırız.
+{} bu alan içinde yukarda hangi şeye işlem yaptırmak istersek id tanımlarız ve bu alan içinde $(#ilişki) ile id deki ilişkiyi veririz ve .modal(); deyip ne yaptırmak istiyorsak modal();içine yazarız örnek
+{$('#ilişki').modal('show')}-->
+
+<buton id="script_butonu" class="btn btn-info"  type="button" >SCRİPT BUTONU</buton>
+
+<div class="modal fade" id="ilişki_script2">
+   <div class="modal-dialog modal-sm  modal-dialog-centered">
+       
+       <div class="modal-content">
+          
+           <div class="modal-header">
+               <h5 class="modal-title">SCRIPT butonu ile</h5>
+               
+           </div>
+           
+           <div class="modal-body">
+               parağraf
+           </div>
+           
+           <div class="modal-footer">
+               <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+           </div>
+           
+       </div>
+   </div>
+    
+</div>
+<hr><br><br>
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+<script>
+
+    $(function(){
+        
+        $('#ilişki_script').modal('show');
+        
+        $('#script_butonu').click(function(){
+            $('#ilişki_script2').modal('show')
+        });
+    });
+</script>
+</body>
+</html>
+</body>
+</html>

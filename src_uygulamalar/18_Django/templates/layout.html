@@ -1,0 +1,28 @@
+{% load static %} 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog Layout</title>
+    <link rel="stylesheet" href="{% static 'css2/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+</head>
+<body>
+
+    {% include 'partials/_navbar.html' %} <!-- başka bir dosyadaki  veriyi almak için; -->
+    <main>
+        {% include 'partials/_alert.html' %}
+        <div class="container">
+            {% block content %}
+            {% endblock %}
+        </div>
+    </main>
+    {% include 'partials/_footer.html' %} <!-- başka bir dosyadaki  veriyi almak için; -->
+   
+    
+    <script src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
+    <script src="{% static 'js/popper.min.js'  %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+</body>
+</html>

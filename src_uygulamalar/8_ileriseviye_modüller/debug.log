@@ -1,0 +1,4 @@
+[1017/200643.396:ERROR:process_reader_win.cc(123)] NtOpenThread: {Eriþim Yok} Bir iþlem bir nesneye eriþmek istedi, ancak istediði eriþimin haklarý kendisine verilmiþ deðil. (0xc0000022)
+[1017/200643.418:ERROR:exception_snapshot_win.cc(99)] thread ID 7196 not found in process
+[1017/200643.485:ERROR:process_reader_win.cc(123)] NtOpenThread: {Eriþim Yok} Bir iþlem bir nesneye eriþmek istedi, ancak istediði eriþimin haklarý kendisine verilmiþ deðil. (0xc0000022)
+[1017/200643.485:ERROR:exception_snapshot_win.cc(99)] thread ID 2504 not found in process

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FORMLAR</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <style>
+        
+    
+    </style>
+</head>
+<body class="w-75 mx-auto my-4">
+
+    <!-- --------------------------------------------------------------------------------------------------------------------------------- -->
+             <!-- inputu form-control sınıfı ile oluşturduk. -->
+   
+    <form >
+        <input type="text" class="form-control">
+    </form>
+<hr>
+<br><br>
+ <!-- --------------------------------------------------------------------------------------------------------------------------------- -->
+             <!-- inputu form-control sınıfı ile oluşturduk. -->
+             <!-- yazı şekilleri vermek için form-group oluştururuz
+             formun ismini label ile veririrz ancak label for kısmı ile formatanımlayacağımız id kısmı aynı olmalıdır.-->
+   
+       <div class="form-group">
+       <label for="name">Name</label>
+        <input type="text" id="name" class="form-control">
+        </div>
+    
+<hr>
+<br><br>
+ <!-- --------------------------------------------------------------------------------------------------------------------------------- -->
+             <!-- inputu form-control sınıfı ile oluşturduk. -->
+             <!-- form içinde silik olarak yazı yazıdrabiliriz placeholder  classsı ile-->
+   
+    <form >
+       <div class="form-group">
+       <label for="name">Name</label>
+        <input type="text" id="name" class="form-control" placeholder="Enter Name">
+        </div>
+    </form>
+<hr>
+<br><br>
+<!-- --------------------------------------------------------------------------------------------------------------------------------- -->
+             <!-- inputu form-control sınıfı ile oluşturduk. -->
+             <!-- email türünde oluşturmak için inputun type nı email yapmak lazım-->
+   
+    <form >
+       <div class="form-group">
+       <label for="email">Email</label>
+        <input type="email" id="email" class="form-control" placeholder="Enter Email">
+        </div>
+    </form>
+<hr>
+<br><br>
+<!-- --------------------------------------------------------------------------------------------------------------------------------- -->
+             <!-- inputu form-control sınıfı ile oluşturduk. -->
+             <!-- email altında küçük uyarı mesajı verebilriz form-text sınıfı ile-->
+   
+    <form >
+       <div class="form-group">
+       <label for="email">Email</label>
+        <input type="email" id="email" class="form-control" placeholder="Enter Email">
+        <small class="form-text text-danger"> please don't use false character</small>
+        </div>
+    </form>
+<hr>
+<br><br>
+<!-- --------------------------------------------------------------------------------------------------------------------------------- -->
+             <!-- inputu form-control sınıfı ile oluşturduk. -->
+             <!--password türünde oluşturalım -->
+   
+    <form >
+       <div class="form-group">
+       <label for="password">Password</label>
+        <input type="password" id="password" class="form-control" placeholder="Enter Password">
+        <small class="form-text text-danger"> you have only 3 rights</small>
+        </div>
+    </form>
+<hr>
+<br><br>
+
+<!-- --------------------------------------------------------------------------------------------------------------------------------- -->
+             <!-- inputu form-control sınıfı ile oluşturduk. -->
+             <!--select oluşturalım ve seçenekleri option ile belirleyelim -->
+   
+    <form >
+       <div class="form-group">
+           <label for="city">Citys</label>
+            <select name="city" id="city" class="form-control">
+                <option value="0">Kocaeli</option>
+                <option value="1">İstanbul</option>
+                <option value="2">Ordu</option>
+                <option value="3">İzmir</option>
+                <option value="4">Antalya</option>
+                </select>
+        </div>
+    </form>
+<hr>
+<br><br>
+<!-- --------------------------------------------------------------------------------------------------------------------------------- -->
+             <!-- inputu form-control sınıfı ile oluşturduk. -->
+              <!--mesaj kutusu oluşturualım. -->
+   
+    <form >
+       <div class="form-group">
+           <label for="message">Message:</label>
+            <textarea name="message" id="message" cols="30" rows="5" class="form-control"></textarea>
+        </div>
+    </form>
+<hr>
+<br><br>
+<!-- --------------------------------------------------------------------------------------------------------------------------------- -->
+             <!-- inputu form-control sınıfı ile oluşturduk. -->
+                   <!--form-group içersine checkbox almak için  legend class başlık ekelr -->
+    
+       <div class="form-group">
+         
+          <legend>Hobies</legend>
+          
+          <div class="form-check">
+               <label for="checkbox" class="form-check-label">
+                  <input type="checkbox" class="mr-2">Koşmak
+           </label>
+           </div> 
+           
+           <div class="form-check">
+               <label for="checkbox" class="form-check-label">
+                  <input type="checkbox" class="mr-2">Yüzmek
+           </label>
+           </div> 
+           
+           <div class="form-check">
+               <label for="checkbox" class="form-check-label">
+                  <input type="checkbox" class="mr-2">Kitap Okumak
+           </label>
+           </div> 
+           
+           <div class="form-check">
+               <label for="checkbox" class="form-check-label">
+                  <input type="checkbox" class="mr-2">Müzik Dinlemek
+           </label>
+           </div> 
+           
+        </div>
+    
+<hr>
+<br><br>
+
+<!-- --------------------------------------------------------------------------------------------------------------------------------- -->
+                         <!-- tek bir eleman için checkbox oluşturmak için. -->
+                   <!-- custom-control custom-checkbox -->
+                   
+        <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="ch">
+            <label for="ch" class="custom-control-label">Custom</label>
+            
+        </div>
+<hr>
+<br><br>
+<!-- --------------------------------------------------------------------------------------------------------------------------------- -->
+                         <!-- tek bir eleman için raido buton oluşturmak için. -->
+                   <!-- custom-control custom-checkbox -->
+                   
+        <div class="custom-control custom-radio">
+            <input type="radio" class="custom-control-input" id="rd">
+            <label for="rd" class="custom-control-label">Custom</label>
+            
+        </div>
+<hr>
+<br><br>
+
+<!-- --------------------------------------------------------------------------------------------------------------------------------- -->
+                         <!-- iki radio butonu yan yana eklemek için -->
+                   <!-- yanyana ekleyebilmek için custom-control-inline classını vermeliyiz,id ler farklı ama name ler aynı olmalı -->
+    <div>   
+       
+                   
+        <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" class="custom-control-input" id="rd1" name="rdortak">
+            <label for="rd1" class="custom-control-label">radio button 1</label>
+            
+        </div>
+        
+        <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" class="custom-control-input" id="rd2" name="rdortak">
+            <label for="rd2" class="custom-control-label">raido buton 2</label>
+            
+        </div>
+        
+        
+ </div>
+<hr>
+<br><br>
+
+<!-- --------------------------------------------------------------------------------------------------------------------------------- -->
+                         <!-- INPUT GROUBLAR -->
+                  
+    <div class="input-group">   
+       <input type="text" class="form-control">
+        <div class="input-group-append">
+            <span class="input-group-text" id="ig">@gmail.com</span>
+        </div>   
+ </div>
+<hr>
+<br><br>
+<!-- --------------------------------------------------------------------------------------------------------------------------------- -->
+                         <!-- INPUT GROUBLAR -->
+                  
+    <div class="input-group">   
+         <div class="input-group-prepend">
+            <span class="input-group-text " id="ig">https://fatihibic/</span>
+        </div> 
+       <input type="text" class="form-control">
+         
+ </div>
+<hr>
+<br><br>
+<!-- --------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- iki formu yanyane eklemek için -->
+    
+<div class="clearfix">
+      <div class="w-50 float-left">
+       
+        <div class="form-group">
+           <label for="name">Name</label>
+            <input type="text" id="name" class="form-control" placeholder="enter name">
+        </div>
+        
+    </div>
+    
+     <div class="w-50 float-right pl-2">
+       
+        <div class="form-group">
+           <label for="surname">Surname</label>
+            <input type="text" id="surname" class="form-control" placeholder="enter surname">
+            
+        </div>
+        
+    </div>
+    
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+</body>
+</html>
