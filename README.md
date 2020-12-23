@@ -5,9 +5,9 @@ python eğitimi esnasında yaptığım uygulamaları içerir kendime ve ithiyaç
 
 
 ### konular;
-  1- giriş
-  2- döngüler
-  3- liste
+  1- giriş <br/>
+  2- döngüler <br/>
+  3- liste <br/>
   4-1 fonksiyon ve classlar
   4-2 içiçe fonksiyonlar
   4-3 iterators ve  generators
